@@ -17,8 +17,7 @@
 ---
 
 ### Which Sub Continent ranked in market metrics?
-
-![alt text](assets/image.png)
+sub_continent
 
 > **NOTE:** In the above chart, lower means better.
 
@@ -59,7 +58,7 @@ FROM high_value;
 
 ### Volume and value comparison by traffic medium
 
-![alt text](image-2.png)
+Volume_value
 
 **CPM**: CPM has the highest revenue per visit , but the number visitor is lackinng. There is significant difference between the value (Revenue per visit) and volume(Total number of visits), suggesting high visitor conversion , but lacking in number of visitor to the site.
 
