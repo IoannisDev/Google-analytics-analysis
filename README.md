@@ -25,7 +25,7 @@
 
 **North America:** North America ranks 1st in every metric, where consumers are engaging with the website and making purchases. This is the highest-performing market and should be prioritized.
 
-**Central Asia:** In Central Asia, the majority of the consumers aren't browsing the website, ranking 19th in bounce ranking, with the few consumers who are staying making purchases. Indicating that only a few consumers make purchases in larger volume.
+**Central Asia:** In Central Asia, the majority of the consumers aren't browsing the website, ranking 19th in bounce rate, with the few consumers who are staying making purchases. Indicating that only a few consumers make purchases in larger volume.
 
 **Eastern Asia:** Eastern Asian consumers are balanced, with rankings ranging from 4 to 6 in the categories, suggesting balanced consumer behavior.
 
@@ -60,8 +60,8 @@ FROM high_value;
 
 ![alt text](assets/Volume_value.png)
 
-**CPM**: CPM has the highest revenue per visit , but the number visitor is lackinng. There is significant difference between the value (Revenue per visit) and volume(Total number of visits), suggesting high visitor conversion , but lacking in number of visitor to the site.
+**CPM**: CPM has the highest revenue per visit, but the number of visitors is lacking. There is a significant difference between the value (revenue per visit) and volume (total number of visits), suggesting high visitor conversion but lacking in the number of visitors to the site.
 
-**Referral**: While referral is the source of most of the visitors, but it lacks in quality of visitors , with ranking of 4 out of 5. Suggesting the need to implement refferal bonus to increase conversion rate.
+**Referral**: While referral is the source of most of the visitors, it lacks quality of visitors, with a ranking of 4 out of 5. Suggesting the need to implement a referral bonus to increase the conversion rate.
 
-CPM , CPC. are the only medium where the value rank is higher incomparison to volume rank, suuggestion both lacks the number of visitors , but higher visitor conversion than others.
+CPM and CPC are the only mediums where the value rank is higher in comparison to volume rank; suggestions lack the number of visitors but have higher visitor conversion than others.
