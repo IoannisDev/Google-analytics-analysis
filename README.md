@@ -17,6 +17,7 @@
 ---
 
 ### Which Sub Continent ranked in market metrics?
+
 ![alt text](assets/sub_continent.png)
 
 > **NOTE:** In the above chart, lower means better.
@@ -25,7 +26,7 @@
 
 **North America:** North America ranks 1st in every metric, where consumers are engaging with the website and making purchases. This is the highest-performing market and should be prioritized.
 
-**Central Asia:** In Central Asia, the majority of the consumers aren't browsing the website, ranking 19th in bounce rate, with the few consumers who are staying making purchases. Indicating that only a few consumers make purchases in larger volume.
+**Central Asia:** In Central Asia, the majority of the consumers aren't browsing the website, ranking 19th in bounce ranking, with the few consumers who are staying making purchases. Indicating that only a few consumers make purchases in larger volume.
 
 **Eastern Asia:** Eastern Asian consumers are balanced, with rankings ranging from 4 to 6 in the categories, suggesting balanced consumer behavior.
 
@@ -60,8 +61,84 @@ FROM high_value;
 
 ![alt text](assets/Volume_value.png)
 
-**CPM**: CPM has the highest revenue per visit, but the number of visitors is lacking. There is a significant difference between the value (revenue per visit) and volume (total number of visits), suggesting high visitor conversion but lacking in the number of visitors to the site.
+**CPM**: CPM has the highest revenue per visit , but the number visitor is lackinng. There is significant difference between the value (Revenue per visit) and volume(Total number of visits), suggesting high visitor conversion , but lacking in number of visitor to the site.
 
-**Referral**: While referral is the source of most of the visitors, it lacks quality of visitors, with a ranking of 4 out of 5. Suggesting the need to implement a referral bonus to increase the conversion rate.
+**Referral**: While referral is the source of most of the visitors, but it lacks in quality of visitors , with ranking of 4 out of 5. Suggesting the need to implement refferal bonus to increase conversion rate.
 
-CPM and CPC are the only mediums where the value rank is higher in comparison to volume rank; suggestions lack the number of visitors but have higher visitor conversion than others.
+CPM , CPC. are the only medium where the value rank is higher incomparison to volume rank, suuggestion both lacks the number of visitors , but higher visitor conversion than others.
+
+
+### Customer Segmentation:
+![alt text](image.png)
+
+From Kmeans Clustering(k=3), identified  that majority of sessions falls into low or moderate engagement with little to no conversion. With only the customer segment with highest engagement made most transactions than others.
+
+We can distinguish three different segment of customers 
+
+1. Engaged browsers : The customers who engage with the website but make minimal purchases 
+2. Minimal engageers : The customers who engage less, with little to no purchase
+
+3. Buyers : These are the active customer segment , who engages and makes purchases, having the highest engagement metric and purchase 
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>labels</th>
+      <th>Buyers</th>
+      <th>Engaged Browsers</th>
+      <th>Minimal Engagers</th>
+    </tr>
+    <tr>
+      <th>subContinent</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Northern America</th>
+      <td>1712</td>
+      <td>19760</td>
+      <td>23060</td>
+    </tr>
+    <tr>
+      <th>South America</th>
+      <td>15</td>
+      <td>684</td>
+      <td>2343</td>
+    </tr>
+    <tr>
+      <th>Eastern Asia</th>
+      <td>10</td>
+      <td>1277</td>
+      <td>2257</td>
+    </tr>
+    <tr>
+      <th>Central America</th>
+      <td>6</td>
+      <td>310</td>
+      <td>1062</td>
+    </tr>
+    <tr>
+      <th>Western Asia</th>
+      <td>4</td>
+      <td>483</td>
+      <td>2912</td>
+    </tr>
+  </tbody>
+</table>
+</div>
