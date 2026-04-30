@@ -79,66 +79,28 @@ We can distinguish three different segment of customers
 2. Minimal engageers : The customers who engage less, with little to no purchase
 
 3. Buyers : These are the active customer segment , who engages and makes purchases, having the highest engagement metric and purchase 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+### Customer Segment by Subcontinent (% of each segment)
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>labels</th>
-      <th>Buyers</th>
-      <th>Engaged Browsers</th>
-      <th>Minimal Engagers</th>
-    </tr>
-    <tr>
-      <th>subContinent</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Northern America</th>
-      <td>1712</td>
-      <td>19760</td>
-      <td>23060</td>
-    </tr>
-    <tr>
-      <th>South America</th>
-      <td>15</td>
-      <td>684</td>
-      <td>2343</td>
-    </tr>
-    <tr>
-      <th>Eastern Asia</th>
-      <td>10</td>
-      <td>1277</td>
-      <td>2257</td>
-    </tr>
-    <tr>
-      <th>Central America</th>
-      <td>6</td>
-      <td>310</td>
-      <td>1062</td>
-    </tr>
-    <tr>
-      <th>Western Asia</th>
-      <td>4</td>
-      <td>483</td>
-      <td>2912</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+| Subcontinent | Buyers | Engaged Browsers | Minimal Engagers |
+|-------------|--------|-----------------|-----------------|
+| Northern America | 97.11% | 65.34% | 43.14% |
+| South America | 0.85% | 2.26% | 4.38% |
+| Eastern Asia | 0.57% | 4.22% | 4.22% |
+| Central America | 0.34% | 1.03% | 1.99% |
+| Western Asia | 0.23% | 1.60% | 5.45% |
+
+> North America accounrs for 97.11% of the buyers ,while other region make less than 1% of purchases, indicating that the purchase intent is heavily concentrated in North America
+
+### Traffic Source by Segment
+
+| Medium | Buyers | Engaged Browsers | Minimal Engagers |
+|--------|--------|-----------------|-----------------|
+| Direct (none) | 68.16% | 48.52% | 51.14% |
+| Organic | 16.46% | 11.56% | 11.14% |
+| Referral | 10.68% | 36.63% | 34.66% |
+| Affiliate | 2.16% | 1.76% | 1.37% |
+| CPC | 1.36% | 0.80% | 0.81% |
+|CMP| 1.17%| 0.72%| 0.88%|
+
+> Kmeans Clustering also identified that direct sources  accounts for 68.16% of buyers customer segments, while refferal make up of 34.66% percent of Minimal engagers, with 10.68% of  buyers suggesting that the conversion rate is lower despite driving high volume.
