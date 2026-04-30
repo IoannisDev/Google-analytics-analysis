@@ -69,7 +69,7 @@ CPM , CPC. are the only medium where the value rank is higher incomparison to vo
 
 
 ### Customer Segmentation:
-![alt text](image.png)
+![alt text](assets/customer_segment.png)
 
 From Kmeans Clustering(k=3), identified  that majority of sessions falls into low or moderate engagement with little to no conversion. With only the customer segment with highest engagement made most transactions than others.
 
