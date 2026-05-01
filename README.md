@@ -68,39 +68,20 @@ FROM high_value;
 CPM , CPC. are the only medium where the value rank is higher incomparison to volume rank, suuggestion both lacks the number of visitors , but higher visitor conversion than others.
 
 
-### Customer Segmentation:
-![alt text](assets/customer_segment.png)
+---
 
-From Kmeans Clustering(k=3), identified  that majority of sessions falls into low or moderate engagement with little to no conversion. With only the customer segment with highest engagement made most transactions than others.
+## Conclusion
 
-We can distinguish three different segment of customers 
+**North America is the dominant market** across every metric : engagement, conversion, and revenue  and should remain the primary focus for investment and optimization.
 
-1. Engaged browsers : The customers who engage with the website but make minimal purchases 
-2. Minimal engageers : The customers who engage less, with little to no purchase
+**South America presents a high-intent opportunity.** Despite weak overall engagement (ranked 17th in bounce rate), it holds a strong conversion rank of 3rd. Consumers arriving from South America tend to arrive with purchase intent already formed, making targeted marketing campaigns a cost effective lever for growth in the region.
 
-3. Buyers : These are the active customer segment , who engages and makes purchases, having the highest engagement metric and purchase 
+**Eastern Asia shows balanced, stable behavior** with rankings consistently between 4th and 6th across all metrics, suggesting a reliable secondary market worth nurturing with localized content.
 
-### Customer Segment by Subcontinent (% of each segment)
+**Central Asia is a niche, high-volume buyer segment.** Its high bounce rate indicates most visitors leave quickly, but those who stay convert in larger volumes  pointing to a small but committed buyer base rather than a broad consumer audience.
 
-| Subcontinent | Buyers | Engaged Browsers | Minimal Engagers |
-|-------------|--------|-----------------|-----------------|
-| Northern America | 97.11% | 65.34% | 43.14% |
-| South America | 0.85% | 2.26% | 4.38% |
-| Eastern Asia | 0.57% | 4.22% | 4.22% |
-| Central America | 0.34% | 1.03% | 1.99% |
-| Western Asia | 0.23% | 1.60% | 5.45% |
+**CPM is the highest-value traffic channel** by revenue per visit, but it suffers from low visitor volume. Scaling CPM spend could yield disproportionate revenue gains without a proportional increase in traffic costs.
 
-> North America accounrs for 97.11% of the buyers ,while other region make less than 1% of purchases, indicating that the purchase intent is heavily concentrated in North America
+**Referral drives the most visitors but the weakest conversion.** With the highest volume rank and a value rank of 4th out of 5, referral traffic is largely unqualified. Introducing referral incentive programs or better landing page targeting for referral sources could improve conversion quality.
 
-### Traffic Source by Segment
-
-| Medium | Buyers | Engaged Browsers | Minimal Engagers |
-|--------|--------|-----------------|-----------------|
-| Direct (none) | 68.16% | 48.52% | 51.14% |
-| Organic | 16.46% | 11.56% | 11.14% |
-| Referral | 10.68% | 36.63% | 34.66% |
-| Affiliate | 2.16% | 1.76% | 1.37% |
-| CPC | 1.36% | 0.80% | 0.81% |
-|CMP| 1.17%| 0.72%| 0.88%|
-
-> Kmeans Clustering also identified that direct sources  accounts for 68.16% of buyers customer segments, while refferal make up of 34.66% percent of Minimal engagers, with 10.68% of  buyers suggesting that the conversion rate is lower despite driving high volume.
+**Direct traffic is the most reliable path to purchase.** Strategies that build brand recognition and encourage return visits  such as email campaigns, loyalty programs, and SEO  are likely to have the strongest impact on overall revenue.
