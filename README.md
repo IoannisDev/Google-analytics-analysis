@@ -61,11 +61,11 @@ FROM high_value;
 
 ![alt text](assets/Volume_value.png)
 
-**CPM**: CPM has the highest revenue per visit , but the number visitor is lackinng. There is significant difference between the value (Revenue per visit) and volume(Total number of visits), suggesting high visitor conversion , but lacking in number of visitor to the site.
+**CPM**: CPM has the highest revenue per visit , but the number visitor is lacking. There is significant difference between the value (Revenue per visit) and volume(Total number of visits), suggesting high visitor conversion , but lacking in number of visitor to the site.
 
 **Referral**: While referral is the source of most of the visitors, but it lacks in quality of visitors , with ranking of 4 out of 5. Suggesting the need to implement refferal bonus to increase conversion rate.
 
-CPM , CPC. are the only medium where the value rank is higher incomparison to volume rank, suuggestion both lacks the number of visitors , but higher visitor conversion than others.
+CPM and CPC are the only channels where value rank outpaces volume rank. This indicates that while they draw fewer total visitors, those visitors convert at a much higher rate.
 
 
 ---
