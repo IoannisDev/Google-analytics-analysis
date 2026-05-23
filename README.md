@@ -1,4 +1,4 @@
-# Google Analytics Data Analysis
+# Google Merchandise Store (Google analytics) Data Analysis
 
 ## Research Questions
 
