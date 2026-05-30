@@ -59,13 +59,13 @@ FROM high_value;
 
 ### Volume and value comparison by traffic medium
 
-![alt text](assets/Volume_value.png)
+![alt text](assets/medium_metric.png)
 
-**CPM**: CPM has the highest revenue per visit , but the number visitor is lacking. There is significant difference between the value (Revenue per visit) and volume(Total number of visits), suggesting high visitor conversion , but lacking in number of visitor to the site.
+**CPM**: CPM shows the strongest per-session efficiency across all channels lowest bounce rate (34.5%), highest revenue per visit ($0.57), and 5.6 pageviews per session. However, this is based on 3,618 sessions and 83 transactions, so conclusions are provisional until tested at higher volume.
 
-**Referral**: While referral is the source of most of the visitors, but it lacks in quality of visitors , with ranking of 4 out of 5. Suggesting the need to implement referral bonus to increase conversion rate.
+**Referral**: Referral has the highest bounce rate (63%) and lowest revenue per visit ($0.07) despite being the second largest channel by session volume (192,973 sessions). High traffic, low yield.
 
-CPM and CPC are the only channels where value rank outpaces volume rank. This indicates that while they draw fewer total visitors, those visitors convert at a much higher rate.
+**CPC**: CPC has the highest pageviews per session (6.7) and a low bounce rate (34.7%), but revenue per visit ($0.26) is less than half of CPM's. Users engage but convert at a lower rate.
 
 
 ---
@@ -78,10 +78,8 @@ CPM and CPC are the only channels where value rank outpaces volume rank. This in
 
 **Eastern Asia shows balanced, stable behavior** with rankings consistently between 4th and 6th across all metrics, suggesting a reliable secondary market worth nurturing with localized content.
 
-**Central Asia is a niche, high-volume buyer segment.** Its high bounce rate indicates most visitors leave quickly, but those who stay convert in larger volumes  pointing to a small but committed buyer base rather than a broad consumer audience.
-
 **CPM is the highest-value traffic channel** by revenue per visit, but it suffers from low visitor volume. Scaling CPM spend could yield disproportionate revenue gains without a proportional increase in traffic costs.
 
 **Referral drives the most visitors but the weakest conversion.** With the highest volume rank and a value rank of 4th out of 5, referral traffic is largely unqualified. Introducing referral incentive programs or better landing page targeting for referral sources could improve conversion quality.
 
-**Direct traffic is the most reliable path to purchase.** Strategies that build brand recognition and encourage return visits  such as email campaigns, loyalty programs, and SEO  are likely to have the strongest impact on overall revenue.
+**Direct traffic is the most reliable path to purchase.** Strategies that build brand recognition and encourage return visits  such as email campaigns, loyalty programs, and SEO  are likely to have the strongest impact, with low bounce rate, and consistent volume.
